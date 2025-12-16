@@ -9,22 +9,19 @@ instalação do servidor web Apache2 e o deploy de uma aplicação web estática
 
 - Atualização e Upgrade de Pacotes do Sistema
   
-- Instalação de Serviços (Apache2) e Utilitários (Unzip)
+- Instalação de Serviços `Apache2` e Utilitários `Unzip`
 
-- Download de arquivos via linha de comando (wget)
+- Download de arquivos via linha de comando `wget`
 
-- Manipulação e Descompactação de Arquivos (unzip)
+- Manipulação e Descompactação de Arquivos `unzip`
 
 - Implantação de aplicação no diretório padrão do Apache
 
 ### ⛏️Como realizar a execução:
 
-
 - O script deve ser executado com permissões de superusuário (sudo) ou diretamente como root.
 
 - Atenção: Este script substitui o conteúdo do diretório /var/www/html/. Execute-o preferencialmente em um ambiente limpo ou virtualizado.
-
-- A senha padrão utilizada é Senha123 (criptografada via openssl passwd -crypt).
 
 - O fluxo de execução do script é:
  1. Atualização: Executa `apt-get update` e `apt-get upgrade` para garantir que o sistema esteja seguro e atualizado.
